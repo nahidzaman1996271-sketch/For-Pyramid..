@@ -1,1 +1,20 @@
-# For-Pyramid..
+# For-Pyramid..[main.c](https://github.com/user-attachments/files/23689668/main.c)
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+int i,j,n;
+printf("The number is of limit: ");
+scanf("%d",&n);
+for( i=1;i<=n;i++){
+    for(j=1;j<=n-i;j++){
+        printf(" ");
+    }
+    for(j=1;j<=i;j++){
+     printf("* ");
+    }
+    printf("\n");
+}
+return 0;
+
+}
